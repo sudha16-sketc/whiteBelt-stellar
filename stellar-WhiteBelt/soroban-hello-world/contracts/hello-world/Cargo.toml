@@ -14,11 +14,3 @@ soroban-sdk = { workspace = true }
 [dev-dependencies]
 soroban-sdk = { workspace = true, features = ["testutils"] }
 
-[workspace]
-resolver = "2"
-members = [
-  "contracts/*",
-]
-
-[workspace.dependencies]
-soroban-sdk = "22"
