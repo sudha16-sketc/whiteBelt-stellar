@@ -11,11 +11,4 @@ fn test() {
     assert_eq!(client.increment(), 1);
     assert_eq!(client.increment(), 2);
     assert_eq!(client.increment(), 3);
-
-    assert_eq!(client.decrement(), 2);
-    assert_eq!(client.get_current_value(), 2);
-
-
-    client.reset(); 
-    assert_eq!(client.get_current_value(), 0);
 }
